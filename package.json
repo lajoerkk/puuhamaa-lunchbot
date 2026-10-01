@@ -1,0 +1,23 @@
+{
+  "name": "puuhamaa-lunchbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "start": "App.js"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "@slack/events-api": "^2.3.4",
+    "@slack/interactive-messages": "^1.7.0",
+    "@slack/web-api": "^5.12.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
